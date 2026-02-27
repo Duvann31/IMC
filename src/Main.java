@@ -8,9 +8,9 @@ public class Main {
         double peso;
         double estatura;
         double IMC;
-        System.out.println("Digite Peso");
+        System.out.println("Igrese su peso");
         peso = lector.nextDouble();
-        System.out.println("Digite Estatura");
+        System.out.println("Ingrese su estatura");
         estatura = lector.nextDouble();
         IMC = peso/(estatura*estatura);
         System.out.println("El indice de masa corporal es: "+IMC);
